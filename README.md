@@ -1,61 +1,61 @@
-# Agent Evidence Illustrations
+# Agent Evidence Illustrations / Agent 证据链配图
 
-> A skill for audit-office style illustrations about agents, evidence chains, trust boundaries, and handoffs.
+> 给 AI Agent、证据链、权限边界、交接审核、复盘回放类文章生成“审计办公室”风格正文配图。
 
-Agent Evidence Illustrations is a narrower visual skill for AI agent articles where the hard part is evidence: who claimed what, which artifact proves it, where permission stops, and what a reviewer can replay.
+这个 skill 是一个窄题材视觉包：当文章在讲 agent 为什么可信、谁做了什么、证据在哪里、权限在哪停、reviewer 如何复盘时，它把这些抽象关系画成票据、红章、证据带、待审托盘、权限门和回放胶带。
 
-## Examples
+## 示例图
 
-<p><img src="examples/images/01-audit-office-trust-gate.png" alt="Audit office trust gate" width="100%"><br><sub>Audit office trust gate</sub></p>
-<p><img src="examples/images/02-grid-collage-article-pipeline.png" alt="Article pipeline" width="100%"><br><sub>Article pipeline</sub></p>
+<p><img src="examples/images/01-audit-office-trust-gate.png" alt="审计办公室信任门" width="100%"><br><sub>审计办公室信任门</sub></p>
+<p><img src="examples/images/02-grid-collage-article-pipeline.png" alt="文章流程配图" width="100%"><br><sub>文章流程配图</sub></p>
 
-## What It Does
+## 它能做什么
 
-- Turn trust boundaries, agent handoffs, review queues, replay tapes, and permission gates into body figures.
-- Use an original audit-office metaphor world with stamps, trays, slips, evidence tape, and numbered badges.
-- Keep illustrations readable for Chinese technical and product writing.
-- Avoid copying mascot/IP systems from other repositories.
+- 把 claim、evidence、review、permission、handoff 画成可理解的物件关系。
+- 用原创“审计办公室”隐喻世界，避免复制别人的 mascot/IP。
+- 适合 AI agent、工程治理、信任边界、安全审核、协作流程文章。
+- 让读者看到“证据从哪来、谁盖章、哪里被拒、哪里可回放”。
 
-## Install
+## 安装
 
-Clone this repository into your local Codex skills folder:
+把这个仓库克隆到本机 Codex skills 目录：
 
 ```bash
 mkdir -p ~/.codex/skills
 git clone https://github.com/Alexsun1one/agent-evidence-illustrations.git ~/.codex/skills/agent-evidence-illustrations
 ```
 
-If your agent expects a nested skill directory instead of a direct clone, copy the folder that contains `SKILL.md` into its skills directory.
+如果你的 Agent 使用其它 skills 目录，也可以把包含 `SKILL.md` 的这个仓库复制过去。
 
-## Use
+## 怎么用
 
-Example request:
+示例请求：
 
 ```text
-Use agent-evidence-illustrations to create one article body figure about an AI agent handoff, an evidence trail, and a reviewer approval gate.
+用 agent-evidence-illustrations 生成一张中文正文配图：主题是 AI Agent 交接、证据链、权限门和人工审核。要求画面像荒诞但清楚的审计办公室。
 ```
 
-The skill entry point is [`SKILL.md`](SKILL.md). Supporting rules live in [`references/`](references/) when this repo includes them; helper scripts live in [`scripts/`](scripts/) when available.
+Skill 入口是 [`SKILL.md`](SKILL.md)。细则在 [`references/`](references/)；如果这个仓库带脚本，脚本在 [`scripts/`](scripts/)。
 
-## Quality Bar
+## 质量要求
 
-- The image must explain a concrete idea, not merely decorate the page.
-- Chinese text should be readable at the actual publishing size.
-- The output should keep a stable style system across a set while letting each image fit its topic.
-- Generated examples are prompts and visual references, not fixed templates.
+- 先服务内容，再服务风格；图必须解释一个具体想法。
+- 中文默认要可读，标题、caption、标签不能只当装饰纹理。
+- 同一组图要风格统一，但每张图要贴合自己的段落/用途。
+- 示例图是工作流参考，不是唯一模板。
 
-## WeChat
+## 公众号
 
-More writeups, examples, and AI workflow notes are published on my WeChat official account. This is the real QR/search card used for the account, included as a normal bitmap asset rather than a stylized fake code.
+更完整的拆解、提示词、案例复盘、AI 写作和产品实践，我会继续写在公众号里。下面是我的真实公众号二维码/搜一搜卡片，不是仿造的装饰二维码。
 
 <p align="center">
   <img src="assets/wechat-official-account.png" alt="微信搜一搜：正在逐渐AI化" width="720">
 </p>
 
-## License
+## 开源协议
 
-MIT. See [`LICENSE`](LICENSE).
+MIT。见 [`LICENSE`](LICENSE)。
 
-## Notice
+## 声明
 
-This is an original open-source skill package by Sun Wuyuan / Alexsun1one. It is not affiliated with OpenAI, GitHub, WeChat, or any referenced platform. Avoid using it to imitate protected characters, living artists, or third-party brand assets without permission.
+这是 Sun Wuyuan / Alexsun1one 的原创开源 Skill 包。它不隶属于 OpenAI、GitHub、微信或任何被提及的平台。请不要用它去复制受保护 IP、仿冒在世艺术家，或暗示不存在的品牌背书。

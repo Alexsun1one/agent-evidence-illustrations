@@ -1,9 +1,9 @@
-# Example Prompts
+# 示例 Prompt
 
 ```text
-Use agent-evidence-illustrations to create one article body figure about an AI agent handoff, an evidence trail, and a reviewer approval gate.
+用 agent-evidence-illustrations 生成一张中文正文配图：主题是 AI Agent 交接、证据链、权限门和人工审核。要求画面像荒诞但清楚的审计办公室。
 ```
 
 ```text
-Use agent-evidence-illustrations for a Chinese publishing example. First explain the planned visual structure, then produce the final image prompt, then run the QA checklist from the skill.
+用 agent-evidence-illustrations 做一个中文发布场景示例。先说明视觉结构，再写最终生图提示词，最后按 Skill 的 QA checklist 自检。
 ```

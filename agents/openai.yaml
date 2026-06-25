@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent Evidence Illustrations"
+  short_description: "把 AI/产品/工程观点画成证据链正文配图"
+  default_prompt: "Use $agent-evidence-illustrations to turn this Chinese AI/product article into a concise shot list and generate article illustrations."
+
+policy:
+  allow_implicit_invocation: true

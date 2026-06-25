@@ -11,6 +11,8 @@ Design 16:9 white-background article illustrations that turn abstract AI/product
 
 Default visual language: sparse black hand-drawn line art, white space, a small recurring cast of "evidence workers" and physical proof objects, with very few red/orange/blue handwritten Chinese labels. The worker characters must perform the conceptual action: sorting evidence, guarding a boundary, weighing claims, sealing a trace, handing off a task, replaying a log, or repairing a workflow.
 
+For public showcase images, use a more premium evidence-object mode when it helps: tactile paper trays, old photographs, sealed envelopes, wax stamps, brass lamps, blue ribbons, transparent evidence cabinets, and cinematic desk light. Keep the evidence logic sparse and clear, but do not force everything into pure whiteboard line art.
+
 ## Read References As Needed
 
 Load only the reference needed for the current task:
@@ -82,4 +84,4 @@ Name files in order:
 02-boundary-name.png
 ```
 
-Report only the useful delivery details: image count, purpose of each image, file paths, and any image that should be regenerated.
+Report only the useful delivery details: image count, purpose of each image, file paths, native label status, and any image that should be regenerated.

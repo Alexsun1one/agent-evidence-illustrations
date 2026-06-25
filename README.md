@@ -1,11 +1,12 @@
-# Agent Evidence Illustrations / Agent 证据链配图
+# Agent Evidence Illustrations / 证据链配图
 
-> 给 AI Agent、证据链、权限边界、交接审核、复盘回放类文章生成“审计办公室”风格正文配图。
+> 给证据链、信任边界、交接审核、复盘回放类文章生成“审计剧场 / 证据物件美学”正文配图。
 
-这个 skill 是一个窄题材视觉包：当文章在讲 agent 为什么可信、谁做了什么、证据在哪里、权限在哪停、reviewer 如何复盘时，它把这些抽象关系画成票据、红章、证据带、待审托盘、权限门和回放胶带。
+这个 skill 是一个窄题材视觉包：当文章在讲一个判断为什么可信、证据从哪来、谁盖章、哪里该停、如何复盘时，它把抽象关系画成票据、红章、证据带、待审托盘、权限门、旧照片和回放胶带。不必满屏工程图，也可以像一张漂亮的调查杂志插图。
 
 ## 示例图
 
+<p><img src="examples/images/03-trust-before-conclusion.png" alt="先证据后结论" width="100%"><br><sub>先证据后结论：故事、照片和笔记先被比较，再进入结论信封。</sub></p>
 <p><img src="examples/images/01-audit-office-trust-gate.png" alt="审计办公室信任门" width="100%"><br><sub>审计办公室信任门</sub></p>
 <p><img src="examples/images/02-grid-collage-article-pipeline.png" alt="文章流程配图" width="100%"><br><sub>文章流程配图</sub></p>
 
